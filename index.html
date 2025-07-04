@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang="portfolio_title">Portofolio Amelia | Desainer Grafis</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Hoja de Estilos Personalizada -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menú Móvil Lateral -->
+    <div id="mobile-menu" class="mobile-nav">
+        <div class="mobile-nav-header">
+             <div>
+                <button id="theme-toggle-mobile" aria-label="Toggle theme">
+                     <i id="theme-toggle-dark-icon-mobile" class="bi bi-moon-stars-fill icon"></i>
+                     <i id="theme-toggle-light-icon-mobile" class="bi bi-sun-fill icon"></i>
+                </button>
+                <button id="language-toggle-mobile" class="language-toggle" aria-label="Toggle language">ID</button>
+            </div>
+            <button id="mobile-menu-close-button" aria-label="Close menu">
+                <i class="bi bi-x-lg icon"></i>
+            </button>
+        </div>
+        <nav>
+            <a href="#home" class="nav-link-mobile" data-lang="nav_home">Beranda</a>
+            <a href="#about" class="nav-link-mobile" data-lang="nav_about">Tentang Saya</a>
+            <a href="#blog" class="nav-link-mobile" data-lang="nav_blog">Karya Saya</a>
+            <a href="#contact" class="nav-link-mobile" data-lang="nav_contact">Kontak</a>
+        </nav>
+    </div>
+    <div id="overlay"></div>
+
+
+    <!-- Encabezado -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#home" class="nav-link-header">
+                 <div class="logo-icon">A</div>
+                <span class="logo-text">Amelia</span>
+            </a>
+            <div class="nav-menu">
+                <nav id="nav-desktop">
+                    <a href="#home" class="nav-link" data-lang="nav_home">Beranda</a>
+                    <a href="#about" class="nav-link" data-lang="nav_about">Tentang Saya</a>
+                    <a href="#blog" class="nav-link" data-lang="nav_blog">Karya Saya</a>
+                    <a href="#contact" class="nav-link" data-lang="nav_contact">Kontak</a>
+                </nav>
+                <button id="theme-toggle" aria-label="Toggle theme">
+                    <i id="theme-toggle-dark-icon" class="bi bi-moon-stars-fill icon"></i>
+                    <i id="theme-toggle-light-icon" class="bi bi-sun-fill icon"></i>
+                </button>
+                <button id="language-toggle" class="language-toggle" aria-label="Toggle language">ID</button>
+            </div>
+            <button id="mobile-menu-button" aria-label="Open menu">
+                <i class="bi bi-list icon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="container">
+        <section id="home" class="content-section">
+            <div class="home-grid">
+                <div class="home-text">
+                    <h1 data-lang="home_greeting">Halo, saya</h1>
+                    <span id="typing-element"></span>
+                    <p data-lang="home_intro">Selamat datang di portofolio saya! Seorang desainer yang bersemangat dalam mengubah ide menjadi konsep visual yang berdampak dan tak terlupakan.</p>
+                    <div class="home-actions">
+                        <div class="social-links">
+                            <a href="https://wa.me/6281284030268" aria-label="WhatsApp" class="social-icon" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                            <a href="https://www.instagram.com/onyoura__melia/" aria-label="Instagram" class="social-icon" target="_blank"><i class="bi bi-instagram"></i></a>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=admameliasafitri@gmail.com" aria-label="Gmail" class="social-icon" target="_blank"><i class="bi bi-envelope"></i></a>
+                        </div>
+                        <a href="#" download="Amelia-CV.pdf" class="cv-button">
+                            <span data-lang="home_cv_button">Unduh CV</span>
+                            <i class="bi bi-download icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-image">
+                    <img src="img/Amelia.jpeg" alt="Foto de Amelia">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2 data-lang="about_title">Tentang Saya</h2>
+            <div class="card">
+                <div class="about-content">
+                    <div class="about-text">
+                        <p data-lang="about_p1">Saya seorang desainer grafis yang bersemangat dan berdedikasi, lulusan Sekolah Menengah Kejuruan Desain Komunikasi Visual (DKV), dengan pengalaman kuat dalam menciptakan materi visual yang inovatif dan efektif. Saya mahir menggunakan alat profesional seperti Adobe Photoshop dan Illustrator, serta prinsip-prinsip dasar desain—komposisi, teori warna, dan tipografi—yang saya terapkan dalam proyek branding, papan nama, poster, dan konten media sosial.</p>
+
+                        <p data-lang="about_p2">Perjalanan karir saya mencakup mulai dari pengembangan identitas korporat lengkap hingga pembuatan materi pemasaran cetak dan digital. Saya dikenal karena perhatian saya yang besar terhadap detail, kreativitas yang konstan, dan kemampuan untuk menghasilkan solusi visual yang mengkomunikasikan pesan yang jelas dan menarik. Selain itu, saya memiliki keterampilan dalam ilustrasi dan produksi multimedia, yang memungkinkan saya untuk memperkaya setiap proyek dengan elemen yang dipersonalisasi dan orisinal.</p>
+
+                        <p data-lang="about_p3">Saya bekerja secara mandiri, mengelola tenggat waktu dan sumber daya, dan juga berkolaborasi secara efektif dalam tim multidisiplin, berkomunikasi dengan lancar dengan klien dan kolega untuk memastikan hasil yang sejalan dengan tujuan proyek. Saya selalu mencari tantangan baru yang memungkinkan saya untuk berkembang secara profesional dan memberikan nilai melalui desain.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="img/Amelia 2.jpeg" alt="Un retrato amigable de Amelia">
+                    </div>
+                </div>
+            </div>
+            
+            <h2 class="habili" data-lang="skills_title">Keterampilan</h2>
+            <div class="card">
+                <div class="skills-section">
+                    <div class="skills-grid">
+                        <div class="skill-item" data-lang="skill_photoshop">Adobe Photoshop</div>
+                        <div class="skill-item" data-lang="skill_illustrator">Adobe Illustrator</div>
+                        <div class="skill-item" data-lang="skill_branding">Desain Branding</div>
+                        <div class="skill-item" data-lang="skill_illustration">Ilustrasi Digital</div>
+                        <div class="skill-item" data-lang="skill_photography">Fotografi</div>
+                        <div class="skill-item" data-lang="skill_video">Konten Video</div>
+                        <div class="skill-item" data-lang="skill_communication">Komunikasi</div>
+                        <div class="skill-item" data-lang="skill_time_management">Manajemen Waktu</div>
+                        <div class="skill-item" data-lang="skill_color_theory">Teori Warna</div>
+                        <div class="skill-item" data-lang="skill_typography">Tipografi</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="content-section">
+            <h2 data-lang="work_title">Karya Saya</h2>
+            <div class="blog-grid">
+                <div class="card-project" data-type="image" data-src="img/1.jpg">
+                    <img src="img/1.jpg" alt="Diseño de poster de zapatillas">
+                </div>
+                <div class="card-project" data-type="image" data-src="img/2.jpg">
+                    <img src="img/2.jpg" alt="Diseño de poster de zapatillas">
+                </div>
+                <div class="card-project" data-type="image" data-src="img/3.jpg">
+                    <img src="img/3.jpg" alt="Diseño de poster de comida">
+                </div>
+                <div class="card-project" data-type="image" data-src="img/4.jpg">
+                    <img src="img/4.jpg" alt="Diseño de poster de comida rápida">
+                </div>
+                <div class="card-project" data-type="image" data-src="img/5.jpg">
+                    <img src="img/5.jpg" alt="Diseño de poster de comida rápida">
+                </div>
+                <div class="card-project" data-type="image" data-src="img/6.jpg">
+                    <img src="img/6.jpg" alt="Diseño de poster de comida rápida">
+                </div>
+                <div class="card-project" data-type="image" data-src="img/7.jpg">
+                    <img src="img/7.jpg" alt="Diseño de poster de comida rápida">
+                </div>
+                <div class="card-project" data-type="image" data-src="img/8.jpg">
+                    <img src="img/8.jpg" alt="Diseño de poster de comida rápida">
+                </div>
+                <div class="card-project" data-type="image" data-src="img/9.jpg">
+                    <img src="img/9.jpg" alt="Diseño de poster de comida rápida">
+                </div>
+                <div class="card-project" data-type="image" data-src="img/10.jpg">
+                    <img src="img/10.jpg" alt="Diseño de poster de comida rápida">
+                </div>
+                <div class="card-project" data-type="image" data-src="img/11.webp">
+                    <img src="img/11.webp" alt="Diseño de poster de comida rápida">
+                </div>
+                <div class="card-project" data-type="image" data-src="img/12.webp">
+                    <img src="img/12.webp" alt="Diseño de poster de comida rápida">
+                </div>
+                <div class="card-project" data-type="image" data-src="img/13.webp">
+                    <img src="img/13.webp" alt="Diseño de poster de comida rápida">
+                </div>
+                <div class="card-project" data-type="image" data-src="img/14.webp">
+                    <img src="img/14.webp" alt="Diseño de poster de comida rápida">
+                </div>
+                <div class="card-project" data-type="image" data-src="img/15.webp">
+                    <img src="img/15.webp" alt="Diseño de poster de comida rápida">
+                </div>
+                <div class="card-project" data-type="image" data-src="img/16.webp">
+                    <img src="img/16.webp" alt="Diseño de poster de comida rápida">
+                </div>
+                <div class="card-project" data-type="image" data-src="img/17.webp">
+                    <img src="img/17.webp" alt="Diseño de poster de comida rápida">
+                </div>
+                <div class="card-project" data-type="image" data-src="img/18.webp">
+                    <img src="img/18.webp" alt="Diseño de poster de comida rápida">
+                </div>
+                <div class="card-project" data-type="image" data-src="img/19.webp">
+                    <img src="img/19.webp" alt="Diseño de poster de comida rápida">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <div class="card form-card">
+                <h2 data-lang="contact_title">Mari Bicara</h2>
+                <p data-lang="contact_subtitle">Punya proyek yang ingin didiskusikan? Kirimkan saya pesan.</p>
+                <form>
+                    <div class="form-group">
+                        <label for="name" data-lang="form_name">Nama</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-lang="form_email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-lang="form_message">Pesan</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn-submit" data-lang="form_submit">Kirim Pesan</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox Gallery HTML -->
+    <div id="lightbox">
+        <div class="lightbox-content">
+            <button id="lightbox-close" class="bi bi-x"></button>
+            <img id="lightbox-img" src="">
+            <button id="lightbox-prev" class="lightbox-nav bi bi-arrow-left"></button>
+            <button id="lightbox-next" class="lightbox-nav bi bi-arrow-right"></button>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js" defer></script>
+</body>
+</html>
